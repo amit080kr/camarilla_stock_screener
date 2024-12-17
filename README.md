@@ -3,7 +3,6 @@
 This project is a **Stock Screener** designed to filter stocks in real-time during market hours using **Camarilla pivot levels**. 
 It utilizes the [yfinance](https://github.com/ranaroussi/yfinance) library to fetch live stock market data and calculate Camarilla levels, providing a powerful tool to identify key trading opportunities.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ It utilizes the [yfinance](https://github.com/ranaroussi/yfinance) library to fe
 - **Filtering Mechanism**: Screen stocks during market hours based on specific conditions (e.g., price breaking key levels like `H3` or `L3`).
 - **Customizable Timeframes**: Fetch data in multiple intervals (`5m`, `1d`, etc.) for granular analysis.
 
----
 
 ## Project Overview
 
@@ -25,4 +23,3 @@ This screener can:
 2. Calculate Camarilla levels to the dataset.
 3. Filter stocks meeting specific conditions (e.g., closing prices breaking `H3` or `L3` levels).
 
----
